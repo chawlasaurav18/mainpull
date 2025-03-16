@@ -1,15 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        int a = 5, b = 10;
+        int a = 8, b = 4;  // Changed values
         int sum = a + b;
-        int diff = a -b;
-        int mul = a*b;
-        int div = a/b;
-        int mod = a%b;
-        System.out.println("Sum: " + sum);
-        System.out.println("Diff: " + diff);
-        System.out.println("Mul: " + mul);
-        System.out.println("Div: " + div);
-        System.out.println("Mod: " + mod); 
+        int diff = b - a;  // Changed subtraction order
+        int mul = a * b;
+        double div = (double) a / b;  // Changed int to double for division
+        int mod = a % b;
+        System.out.println("Addition: " + sum); // Changed text
+        System.out.println("Subtraction: " + diff); // Changed text
+        System.out.println("Multiplication: " + mul); // Changed text
+        System.out.println("Division: " + div); // Changed text and type
+        System.out.println("Modulo: " + mod);  // Changed text
     }
 }
