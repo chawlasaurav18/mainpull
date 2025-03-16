@@ -1,15 +1,16 @@
 public class Main {
     public static void main(String[] args) {
-        int a = 8, b = 4;  // Changed values
+        int a = 20, b = 8; // Different values from your branch
         int sum = a + b;
-        int diff = b - a;  // Changed subtraction order
+        int diff = b - a; // Different calculation
         int mul = a * b;
-        double div = (double) a / b;  // Changed int to double for division
+        double div = (double) a / b; // Change division type to double
         int mod = a % b;
-        System.out.println("Addition: " + sum); // Changed text
-        System.out.println("Subtraction: " + diff); // Changed text
-        System.out.println("Multiplication: " + mul); // Changed text
-        System.out.println("Division: " + div); // Changed text and type
-        System.out.println("Modulo: " + mod);  // Changed text
+        System.out.println("Addition: " + sum); // Different print messages
+        System.out.println("Subtraction: " + diff);
+        System.out.println("Multiplication: " + mul);
+        System.out.println("Division: " + div);
+        System.out.println("Modulo: " + mod);
     }
 }
+
